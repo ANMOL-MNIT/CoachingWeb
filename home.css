@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lavenderblush;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+header {
+    padding: 40px;
+    background-color: rgba(17, 143, 23, 0.212);
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5mm;
+}
+nav {
+    background-image: url(img5.jpg);
+    overflow: hidden;
+    position: sticky;
+    top: 5px;
+}
+
+nav a {
+    
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    
+    
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+    border: 8px solid rgb(27, 90, 41);
+    border-radius: 10px;
+}
+
+section:nth-child(even)
+ {
+    background-color: rgb(3, 19, 15);
+}
+
+
+section {
+    font-family: 'Caveat', cursive;
+    font-size: 5mm;
+    font-weight: bold;
+    min-height: 100vh;
+}
+
+video {
+    padding: 10px;
+}
+
+iframe {
+    height: 75vh;
+}
+
+img {
+    /* padding: 10px; */
+    border: 10px solid black;
+    align-content: left;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.btn{
+    padding: 1px 1px;
+    border: 2px solid white;
+    background-color: red;
+    color: black;
+    margin: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+input{ background-color: red;
+    border: none;
+    padding: none;
+   
+}
+input.bton{ background-color: rgb(0, 255, 13);
+    border: none;
+    padding: none;
+    
+}
